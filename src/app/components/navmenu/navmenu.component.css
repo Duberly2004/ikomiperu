@@ -1,0 +1,24 @@
+.navbar-custom {
+    background-color: #0C287B; 
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: white; 
+}
+.navbar-custom .navbar-brand {
+    color: white; 
+}
+.navbar-custom .navbar-brand img {
+    height: 80px; 
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-link i {
+    margin-right: 5px; 
+}
+
+
+.activate {
+    background-color: yellow;
+}

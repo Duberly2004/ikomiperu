@@ -1,0 +1,6 @@
+.card-title {
+    border: 2px solid grey; /* Marco gris */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    background-color: rgb(149, 153, 155);
+}

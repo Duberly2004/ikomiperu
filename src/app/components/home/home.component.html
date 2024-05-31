@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePlus.pe</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="/src/app/components/home/home.component.css" rel="stylesheet">
+  
+</head>
+
+<body>
+    <div class="page-container">
+        <section id="section1" class="section">
+            <div class="container-fluid py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="content">
+                                <!-- Contenido sobre la imagen -->
+                                <h1>REPUESTOS EN GENERAL para camiones de todas las marcas.
+                                    Somos una empresa importadora de repuestos</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container mt-5">
+        <div id="brandCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#brandCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#brandCarousel" data-slide-to="1"></li>
+                <li data-target="#brandCarousel" data-slide-to="2"></li>
+                <li data-target="#brandCarousel" data-slide-to="3"></li>
+                <li data-target="#brandCarousel" data-slide-to="4"></li>
+                <li data-target="#brandCarousel" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <img  src="/assets/images/clients/client-1.png"  alt="Brand 1" class="col">
+                        <img src="/assets/images/clients/client-2.png"  alt="Brand 2" class="col">
+                        <img  src="/assets/images/clients/client-3.png" alt="Brand 3" class="col">
+                        <img  src="/assets/images/clients/client-4.png"  alt="Brand 4" class="col">
+                        <img  src="/assets/images/clients/client-5.png" alt="Brand 5" class="col">
+                        <img  src="/assets/images/clients/client-6.png" alt="Brand 6" class="col">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#brandCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#brandCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Iniciar el carrusel
+        $('#brandCarousel').carousel();
+    </script>
+</body>
+
+</html>

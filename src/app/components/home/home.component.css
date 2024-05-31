@@ -1,0 +1,46 @@
+.page-container {
+    position: relative;
+    background-image: url('/assets/images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e7b7b;
+}
+
+.page-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad aquí */
+    z-index: 1;
+}
+.content {
+    position: relative;
+    z-index: 2; /* Asegura que el contenido esté sobre la superposición */
+    color: white;
+    margin-left: 55%;
+    text-align: right;
+    width: 40%; /* Asegura que el contenedor del texto no ocupe todo el ancho */
+}
+.carousel-item img {
+    max-height: 100px; /* Ajusta la altura de las imágenes */
+    object-fit: contain;
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
+
+.content h1 {
+    color: white; /* Color del texto sobre la imagen */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la legibilidad */
+}
+
+.col {
+    height: 50px; 
+}
